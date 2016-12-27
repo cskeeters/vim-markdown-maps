@@ -7,12 +7,12 @@ nmap <buffer> <localleader>j yypVr-
 
 " Text styling Bold Italic Fixed-width
 " Note: "_yiw moves cursor to the beginning of the word
-nmap <buffer> <localleader>b "_yiWi*<ESC>lEa*<ESC>
-nmap <buffer> <localleader>i "_yiWi**<ESC>lEa**<ESC>
+nmap <buffer> <localleader>b "_yiWi**<ESC>lEa**<ESC>
+nmap <buffer> <localleader>i "_yiWi*<ESC>lEa*<ESC>
 nmap <buffer> <localleader>f "_yiWi`<ESC>lEa`<ESC>
 
-vmap <buffer> <localleader>b s*<C-r>"*<ESC>
-vmap <buffer> <localleader>i s**<C-r>"**<ESC>
+vmap <buffer> <localleader>b s**<C-r>"**<ESC>
+vmap <buffer> <localleader>i s*<C-r>"*<ESC>
 vmap <buffer> <localleader>f s`<C-r>"`<ESC>
 
 " HTML Keyboard Wrapper
