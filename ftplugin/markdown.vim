@@ -5,6 +5,13 @@ setlocal conceallevel=0
 nmap <buffer> <localleader>h yypVr=
 nmap <buffer> <localleader>j yypVr-
 
+" Atx style Headers
+nmap <buffer> <localleader>1 I# <ESC>$F#xd0i#<ESC>0
+nmap <buffer> <localleader>2 I# <ESC>$F#xd0i##<ESC>0
+nmap <buffer> <localleader>3 I# <ESC>$F#xd0i###<ESC>0
+nmap <buffer> <localleader>4 I# <ESC>$F#xd0i####<ESC>0
+nmap <buffer> <localleader>5 I# <ESC>$F#xd0i#####<ESC>0
+
 " Text styling Bold Italic Fixed-width
 " Note: "_yiw moves cursor to the beginning of the word
 nmap <buffer> <localleader>b "_yiWi**<ESC>lEa**<ESC>
