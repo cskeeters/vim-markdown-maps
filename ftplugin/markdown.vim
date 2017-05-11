@@ -1,5 +1,6 @@
 setlocal wrap
 setlocal conceallevel=0
+setlocal commentstring=<!--\ %s\ -->
 
 " Setext style headers
 nmap <buffer> <localleader>h yypVr=
