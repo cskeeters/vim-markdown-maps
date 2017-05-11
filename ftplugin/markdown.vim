@@ -1,4 +1,7 @@
 setlocal wrap
+if !has("patch-7.4-353")
+    setlocal nolist
+endif
 setlocal conceallevel=0
 setlocal commentstring=<!--\ %s\ -->
 
