@@ -5,6 +5,9 @@ endif
 setlocal conceallevel=0
 setlocal commentstring=<!--\ %s\ -->
 
+" Since vim overrides this, we need a way to reset it
+nmap <buffer> \c :setlocal commentstring=<!--\ %s\ -->
+
 " Setext style headers
 nmap <buffer> <localleader>h yypVr=
 nmap <buffer> <localleader>j yypVr-
